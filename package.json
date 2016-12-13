@@ -1,0 +1,23 @@
+{
+  "name": "dress",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.4.7",
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "mongoose": "^4.5.4",
+    "mongoose-auto-increment": "^5.0.1",
+    "mongoose-paginate": "^5.0.0",
+    "morgan": "~1.6.1",
+    "multer": "^1.1.0",
+    "multer-s3": "^2.3.2",
+    "serve-favicon": "~2.3.0"
+  }
+}

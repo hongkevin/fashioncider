@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "mocha"
   },
   "dependencies": {
     "aws-sdk": "^2.4.7",
@@ -19,6 +20,8 @@
     "morgan": "~1.6.1",
     "multer": "^1.1.0",
     "multer-s3": "^2.3.2",
-    "serve-favicon": "~2.3.0"
+    "serve-favicon": "~2.3.0",
+    "should": "^11.1.2",
+    "supertest": "^2.0.1"
   }
 }

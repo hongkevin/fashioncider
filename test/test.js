@@ -15,7 +15,6 @@ describe('Routing', function() {
         } else {
           res.status.should.equal(200);
           // res.body.success.should.equal(0);
-          // res.body.should.be.instanceof(Array);
           done();
         }
       })

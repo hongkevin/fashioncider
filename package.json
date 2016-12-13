@@ -12,6 +12,7 @@
     "debug": "~2.2.0",
     "ejs": "~2.3.3",
     "express": "~4.13.1",
+    "mocha": "^3.2.0",
     "mongoose": "^4.5.4",
     "mongoose-auto-increment": "^5.0.1",
     "mongoose-paginate": "^5.0.0",

@@ -152,7 +152,7 @@ router.get('/api/1/posts/:post_id', function(req, res, next) {
 
 		res.json({
 			success: 1,
-			message: "특정포스팅 상세보기입니다.",
+			message: "안녕하세요. 특정포스팅 상세보기입니다.",
 			data: data
 		});
 	});

@@ -6,7 +6,7 @@ require('../models/postmodel');
 var PostModel = db.model('Post');
 
 
-/* 이미지 업로드 셋팅*/
+/* 이미지 업로드 셋팅!!! */
 var multer = require('multer');
 var multerS3 = require('multer-s3');
 var AWS = require('aws-sdk');
